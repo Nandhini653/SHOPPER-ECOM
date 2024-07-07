@@ -1,0 +1,24 @@
+import React from 'react'
+import './ProductDisplay.css'
+
+const ProductDisplay = (props) => {
+  const {product} = props;
+  return (
+    <div className='productdisplay'>
+      <div className="productdisplay-left">
+        <div className="productdisplay-imag-list">
+          <img src={product.image} alt= ""/>
+          <img src={product.image} alt= ""/>
+          <img src={product.image} alt= ""/>
+          <img src={product.image} alt= ""/>
+        </div>
+         .productdisp
+      </div>
+      <div className="productdisplay-right">
+        
+      </div>
+    </div>
+  )
+}
+
+export default ProductDisplay

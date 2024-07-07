@@ -1,0 +1,14 @@
+import React, { useContext } from 'react'
+import { useParams } from 'react-router-dom';
+
+const Product = () => {
+  const {all_product} = useContext(ShopContext);
+  const {productId} = use
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Product
